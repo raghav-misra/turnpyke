@@ -1,0 +1,19 @@
+{
+    "name": "turnpyke",
+    "version": "1.0.0",
+    "description": "All the power of custom elements, with none of the boilerplate.",
+    "main": "dist/turnpyke.global.js",
+    "browser": "dist/turnpyke.global.js",
+    "module": "dist/turnpyke.esm.js",
+    "scripts": {
+        "build": "rollup -c"
+    },
+    "author": "raghavm",
+    "license": "MIT",
+    "devDependencies": {
+        "rollup": "^2.15.0",
+        "rollup-plugin-terser": "^6.1.0",
+        "rollup-plugin-typescript2": "^0.27.1",
+        "typescript": "^3.9.5"
+    }
+}
