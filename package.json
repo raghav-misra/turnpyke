@@ -1,10 +1,14 @@
 {
     "name": "turnpyke",
     "version": "1.0.0",
-    "description": "All the power of custom elements, with none of the boilerplate.",
+    "description": "Powerfully small custom elements",
     "main": "dist/turnpyke.global.js",
     "browser": "dist/turnpyke.global.js",
     "module": "dist/turnpyke.esm.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/raghav-misra/turnpyke.git"
+    },
     "scripts": {
         "build": "rollup -c"
     },
